@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website 1</title>
+    <style>
+        body{
+            background-color: #eaeaea;
+        }
+        .container{
+            margin: auto;
+            background-color: white;
+            width: 960px;
+        }
+        .header {
+            padding: 20px;
+        }
+        .header judul{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .header li{
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .header a{
+            text-decoration: none;
+            color: salmon;
+            padding: 4px;
+        }
+        .header a:hover{
+            background-color: lightskyblue;
+            color: white;
+        }
+        .hero{
+            background-image: url(img/hero.jpg);
+            background-size: cover;
+            height: 480px;
+            background-position: 0 -80px;
+            border-top: solid salmon;
+            border-bottom: solid lightskyblue;
+        }
+        .main{
+            width: 600px;
+            float: left;
+            box-sizing: border-box;
+        }
+        .main h1{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .main p{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .isi{
+            margin-left: 100px;
+            margin-top: 30px;
+            font-size: 25px;
+            padding: 3px;
+        }
+        .clear{
+            clear: both;
+        }
+        .sidebar{
+            margin-top: 5px;
+            padding-left: 5px;
+            width: 300px;
+            float: right;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .sidebar img{
+            width: 150px;
+            height: 100px;
+            float: left;
+            margin-right: 10px;
+        }
+        .sidebar p {
+            font-size: 14px;
+        }
+        .footer p{
+            background-color: black;
+            margin-top: 50px;
+            font: optional;color: wheat;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="judul">My First Website</h1>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Product</a></li>
+            </ol>
+        </div>
+        <div class="hero"></div>
+        <div class="main">
+                <h1>Judul Artikel</h1>
+                <p>Ditulis oleh <a href="#">Rendi Sutendi</a> , Pada Tahun 2022</p>
+            <p class="isi">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corrupti magnam repudiandae sunt est laborum eaque quibusdam veniam necessitatibus commodi. Nesciunt dignissimos fugiat sapiente corporis voluptas repellendus non placeat tempora.
+            </p>
+        </div>
+        <div class="sidebar">
+            <h1>Tentang Penulis</h1>
+            <img src="rrr.jpg" alt="rendisutendi">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum nam rerum temporibus animi recusandae, quia adipisci, maxime dolorum nostrum exercitationem voluptatem ipsa placeat ipsum distinctio. Expedita distinctio quisquam provident eligendi!</p>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <p align="center">
+                Copyright 2022.rendisutendi
+            </p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
